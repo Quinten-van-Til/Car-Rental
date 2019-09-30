@@ -116,6 +116,7 @@ namespace Autoverhuur_1._1
             else
             {
                 Test = (Double.Parse(Input_Kilometers.Text) - (Days * 100));
+                Test = Test < 0 ? 0 : Test;
             }
 
             Price_Total = Price_Total - Change_Kilometers;
@@ -151,7 +152,7 @@ namespace Autoverhuur_1._1
         private void DaysPriceCalc()
         {
             DaysTotal();
-
+            Kilometers();
             Price_Total = Price_Total - Change_Days;
             Price_Total += Days * Price_DailyRate;
             Input_TotalCosts.Content = Price_Total.ToString("C2");
