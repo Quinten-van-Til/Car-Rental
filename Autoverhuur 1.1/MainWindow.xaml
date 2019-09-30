@@ -1,0 +1,71 @@
+﻿<Window x:Class="Autoverhuur_1._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Autoverhuur_1._1"
+        xmlns:asp="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="280" Width="300">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Margin" Value="10,0,0,0"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.45*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,20">
+                <Button x:Name="Input_Car" Content="Car" Width="40" Click="Button_Click_Input_Car"/>
+                <Button x:Name="Input_Van" Content="Van" Width="40" Click="Button_Click_Input_Van"/>
+            </StackPanel>
+            <Image/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Orientation="Vertical" Margin="0,0,0,0">
+                <Label Content="Kilometers:"/>
+                <Label Content="Start date:"/>
+                <Label Content="End date:"/>
+                <Label Content="Liters of fuel:"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Orientation="Vertical" Margin="0,0,0,0">
+                <TextBox    Margin="0,5,10,0" x:Name="Input_Kilometers"   TextChanged="TextBox_Input_Kilometers"  Text="0"/>
+                <DatePicker Margin="0,5,10,0" x:Name="Input_DateStart"    SelectedDateChanged="DatePicker_Input_DateStart"/>
+                <DatePicker Margin="0,5,10,0" x:Name="Input_DateEnd"      SelectedDateChanged="DatePicker_Input_DateEnd"/>
+                <TextBox    Margin="0,5,10,0" x:Name="Input_LitersOfFuel" TextChanged="TextBox_Input_LitersOfFuel" Text="0"/>
+            </StackPanel>
+
+            <Line Stretch="Fill" Stroke="Black" X1="1" Grid.ColumnSpan="2" Margin="0,70,0,0"/>
+            <Line Stretch="Fill" Stroke="Black" X1="1" Grid.ColumnSpan="2" Margin="0,70,0,0"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Total Cost:" Grid.Column="0" Margin="10,0,0,0"/>
+            <Label x:Name="Input_TotalCosts" Grid.Column="1" Margin="0,0,10,0"/>
+        </Grid>
+
+        
+
+    </Grid>
+</Window>

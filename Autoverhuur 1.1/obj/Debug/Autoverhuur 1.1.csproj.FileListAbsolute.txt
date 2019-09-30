@@ -1,0 +1,14 @@
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\bin\Debug\Autoverhuur 1.1.exe.config
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\bin\Debug\Autoverhuur 1.1.exe
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\bin\Debug\Autoverhuur 1.1.pdb
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\Autoverhuur 1.1.csprojAssemblyReference.cache
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\MainWindow.g.cs
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\App.g.cs
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\Autoverhuur 1.1_MarkupCompile.cache
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\Autoverhuur 1.1_MarkupCompile.lref
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\MainWindow.baml
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\Autoverhuur 1.1.g.resources
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\Autoverhuur_1._1.Properties.Resources.resources
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\Autoverhuur 1.1.csproj.GenerateResource.cache
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\Autoverhuur 1.1.exe
+C:\Users\qvt\source\repos\Groene Opdrachten\03 Autoverhuur\Autoverhuur 1.1\Autoverhuur 1.1\obj\Debug\Autoverhuur 1.1.pdb
